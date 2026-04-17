@@ -24,7 +24,7 @@
     font-family: var(--font);
     font-weight: 400;
 }
-p {
+.eslogan_offer {
     font-family: var(--font);
     opacity: 80%;
 }
@@ -40,4 +40,13 @@ p {
     color: white;
     background-color: var(--background-color);
     opacity: 85%;
+}
+
+.discount_offer {
+    background-color: black;
+    opacity: 70%;
+    border-radius: 15px;
+    padding: 5px;
+    width: 140px;
+    margin: 12px 0 0 12px;
 }

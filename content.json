@@ -2,23 +2,34 @@
   "offers" : 
   [{
     "id": 1,
-    "title": "Oferta 1",
-    "description": "Descuento en habitaciones premium",
+    "title": "Suit Resort",
+    "description": "Disfruta del verano perfecto en nuestro resort: piscina, sol y relax en un solo lugar. Incluye cóctel de bienvenida y acceso a todas las áreas.",
     "price": 120,
+    "descount": 10,
     "image": "src/assets/img/image1.jpg"
   },
   {
     "id": 2,
-    "title": "Oferta 2",
-    "description": "2x1 en fines de semana",
+    "title": "Summer Campaing",
+    "description": "Relájate, nada y desconecta. Nuestro hotel te ofrece piscina, desayuno y cena incluido, y el mejor ambiente de verano.",
     "price": 200,
+    "descount": 30,
     "image": "src/assets/img/image2.jpg"
   },
   {
     "id": 3,
-    "title": "Oferta 3",
-    "description": "Upgrade gratis sujeto a disponibilidad",
+    "title": "Sunny Waters",
+    "description": "Escápate a un ambiente tropical con piscinas, confort y diversión. Vive días soleados y noches inolvidables.",
     "price": 150,
+    "descount": 30,
     "image": "src/assets/img/image3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Crystal Pool",
+    "description": "Tu descanso ideal te espera: sol, piscina y comodidad en una experiencia pensada para ti.",
+    "price": 150,
+    "descount": 20,
+    "image": "src/assets/img/image4.jpg"
   }]
 }
