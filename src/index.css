@@ -1,0 +1,13 @@
+:root {
+  --font: "IBM Plex Sans", sans-serif;
+  --font-size: 400;
+  --text-color: #fbfbfb;
+  --eslogan-color: #9b9b9b;
+  --subtitle-color: #000000;
+  --textButtons-color: #fbfbfb;
+  --background-color: #000000;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

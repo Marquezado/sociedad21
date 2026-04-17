@@ -1,0 +1,155 @@
+.home_my_container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(../assets/img/image4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+
+.header1 {
+  width: 100%;
+  min-height: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: x-large;
+}
+
+.header2 {
+  margin-top: 30px;
+}
+
+.header2 h4 {
+  color: var(--text-color);
+  font-family: var(--font);
+  font-weight: 300;
+  font-size: large;
+  max-width: 230px;
+}
+
+.eslogan h1 {
+  max-width: 100%;
+  color: var(--text-color);
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 28px;
+  font-style: italic;
+}
+
+.user_actions {
+  gap: 10px;
+}
+
+.user_actions button {
+  background-color: transparent;
+  border: 0;
+  color: var(--text-color);
+  height: 50px;
+  width: 60px;
+}
+
+button:hover {
+  color: #000000;
+}
+
+.menu_hotel {
+  gap: 10px;
+}
+
+.menu_hotel button {
+  background-color: transparent;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  border-radius: 15px;
+  padding: 5px 15px;
+  width: auto;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.menu_hotel button:hover {
+  background-color: #f2f2f278;
+  color: #000000;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.search-bar {
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid var(--text-color);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  max-width: 450px;
+  height: 50px;
+  border-radius: 40px;
+}
+
+.search-bar__input {
+  border: 0;
+  padding-left: 20px;
+  background-color: transparent;
+  color: var(--text-color);
+  flex: 1;
+  outline: none;
+}
+
+.search-bar__input::placeholder {
+  color: var(--text-color);
+}
+
+.search-bar__btn {
+  padding: 8px 20px;
+  border: 0;
+  background-color: transparent;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  
+  .eslogan h1 {
+    font-size: 36px;
+    max-width: 600px;
+  }
+
+  .search-bar {
+    margin-top: 0;
+  }
+
+}
+
+
+@media (min-width: 1200px) {
+
+  .user_actions button{
+    width: 90px;
+  }
+  .eslogan h1 {
+    font-size: 48px;
+    max-width: 750px;
+  }
+
+  .search-bar {
+    height: 60px;
+  }
+
+  .menu_hotel button {
+    display: flex;
+    justify-content: center;
+    height: 33px;
+    width: 130px;
+    border-radius: 20px;
+  }
+
+}

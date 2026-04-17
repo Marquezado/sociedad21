@@ -1,0 +1,24 @@
+{
+  "offers" : 
+  [{
+    "id": 1,
+    "title": "Oferta 1",
+    "description": "Descuento en habitaciones premium",
+    "price": 120,
+    "image": "src/assets/img/image1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Oferta 2",
+    "description": "2x1 en fines de semana",
+    "price": 200,
+    "image": "src/assets/img/image2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Oferta 3",
+    "description": "Upgrade gratis sujeto a disponibilidad",
+    "price": 150,
+    "image": "src/assets/img/image3.jpg"
+  }]
+}

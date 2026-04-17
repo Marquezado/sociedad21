@@ -1,0 +1,43 @@
+
+.offers_my_container {
+    height: 70vh;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.title_section1 {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+    font-weight: 300;
+    font-size: 17px;
+    border: 1px solid;
+    border-radius: 25px;
+    width: 120px;
+    height: 35px;
+    display: flex;
+}
+
+
+.title_section2 {
+    font-family: var(--font);
+    font-weight: 400;
+}
+p {
+    font-family: var(--font);
+    opacity: 80%;
+}
+
+.offer_button {
+    background-color: var(--background-color);
+    color: var(--textButtons-color);
+    padding: 20px;
+    border-radius: 35px;
+}
+
+.offer_button:hover {
+    color: white;
+    background-color: var(--background-color);
+    opacity: 85%;
+}
